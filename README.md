@@ -42,6 +42,8 @@ In the image below, the purple player places the ten of clubs in the clubs tray 
 
 It is possible to complete more than one row-column combinations at once, with the placement of a single card. In this case, the player puts a dot marker on each of the cells that correspond to an intersection of a completed row-column combination (there may be up to 3 combinations completed at once in a single move). 
 
+When all nine cells of the grid have been filled, any player who has no markers on the board withdraws from the game. 
+
 ### Calculating scores
 
 Dot scores are calculated based on the values of the visible cards in the corresponding row and column. Each of the suits' tray values are multiplied between row and column, and the sum of the four suits' tray value products is the dot score. 
