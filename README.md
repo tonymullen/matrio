@@ -90,7 +90,7 @@ The game shown below is completed, and yellow has won with 84 points.
 
 The necessary aspects of the board (suited card trays in rows and columns and the 3x3 grid) can be easily drawn on any large piece of paper, or the .svg file in the `resources` directory can be printed in dimensions of 17"x17". In this case, it is recommended to use colored post-it notes or acrylic disks as dot markers and dry erase pens to keep track of dot scores.
 
-3D printable models can be found in the .blend file in the `resources` directory if you want to print fancier board components. You will need to glue the trays onto a 17"x17" surface. Dot markers should be assembled with 2" diameter white acrylic disks (these can be obtained, for example, [here](http://www.delviesplastics.com/p/Colored_Acrylic_Discs.html)) and dry erase markers should be used to record dot scores.
+3D printable models can be found in the `stl` directory in the `resources` directory if you want to print fancier board components. The names of the `.stl` files tell you how many times each file needs to be printed and in what color. You will need to glue the trays onto a 17"x17" surface. Dot markers should be assembled with 2" diameter white acrylic disks (these can be obtained, for example, [here](http://www.delviesplastics.com/p/Colored_Acrylic_Discs.html)) and dry erase markers should be used to record dot scores.
 
 The 17"x17" board dimensions assume that [mini (2.5" by 1.8") playing cards](https://bicyclecards.com/product/bicycle-mini-playing-cards/) are used. 
 
