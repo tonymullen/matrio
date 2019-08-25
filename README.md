@@ -12,7 +12,7 @@ Players take turns placing their cards on the board to determine the placement o
 
 The board is laid out as shown:
 
-![Board](/images/matrio-board.png)
+<img src="/images/matrio_board.png" alt="board" width="450"/>
 
 A total of six trays for each suit are laid out in colums (lower left) and rows (upper right). A 3 by 3 grid (lower right) is where player's dot markers are placed to calculate scores. 
 
@@ -77,12 +77,9 @@ The game shown below is completed, and yellow has won with 84 points.
 
 ## What you need to play the game
 
-A board can be drawn on any large piece of paper, or the image below can be printed in dimentions of 17"x17" (.svg format can be found in the `resources` directory).
+A board can be drawn on any large piece of paper, or the .svg file in the `resources` directory can be printed in dimensions of 17"x17".
 
-<img src="/images/matrio_board.png" alt="board" width="400"/>
-
-
-In this case, it is recommended to use post-it notes or colored acrylic disks for dot markers and dry erase pens to keep track of dot scores.
+In this case, it is recommended to use colored post-it notes or acrylic disks as dot markers and dry erase pens to keep track of dot scores.
 
 3D printable models can be found in the .blend file in the `resources` directory if you want to print a fancier board. You will need to glue the trays onto a 17"x17" surface. Dot markers should be assembled with 2" diameter white acrylic disks (these can be obtained, for example, [here](http://www.delviesplastics.com/p/Colored_Acrylic_Discs.html))
 
