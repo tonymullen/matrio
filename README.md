@@ -33,7 +33,7 @@ Players play by placing a card in one of the trays according to the following ru
 
 ### Dot marker placement
 
-When a player places a card that completes a row-colum combination, that player may place a dot marker on the cell in the 3 by 3 grid that corresponds to the intersection of the row-column combination that they just completed. 
+When a player places a card that completes a row-colum combination, that player places a dot marker on the cell in the 3 by 3 grid that corresponds to the intersection of the row-column combination that they just completed. 
 
 In the image below, the purple player places the ten of clubs in the clubs tray in the rightmost column, completing a row-column combination of the rightmost column and bottommost row. Having placed the last card in this combination, the purple player places their dot marker on the corresponding cell (lower right) and the dot score calculated on that marker becomes part of purple's total score.
 
