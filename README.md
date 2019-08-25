@@ -20,7 +20,7 @@ A total of six trays for each suit are laid out in colums (lower left) and rows 
 
 Discard the 4 of clubs and the 10 of diamonds. Keep both jokers. Shuffle the cards and deal 13 cards to each player. 
 
-The player with the 2 of clubs plays first. 
+The player with the 2 of clubs plays first. Players then take turns in clockwise order.
 
 ### Card placement
 
