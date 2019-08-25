@@ -72,7 +72,7 @@ The calculation of a dot score given a row and column of cards is shown in the f
 
 <img src="/images/dot_score.png" alt="score" width="450"/>
 
-The queen of spades value (13) is multiplied by the 7 of spades value, yielding 91. The 4 of diamonds (-4) is multiplied by the King of diamonds (-10) yielding 40. The seven of clubs (7) multiplied by the 5 of clubs (5) is 35, and the 6 of hearts (-6) times the 7 of hearts (-7) is 42. 91+40+35+42=208, so the current dot score for the bottom center grid cell is 208.
+In this example the queen of spades value (13) is multiplied by the 7 of spades value, yielding 91. The 4 of diamonds (-4) is multiplied by the King of diamonds (-10) yielding 40. The seven of clubs (7) multiplied by the 5 of clubs (5) is 35, and the 6 of hearts (-6) times the 7 of hearts (-7) is 42. 91+40+35+42=208, so the current dot score for the bottom center grid cell is 208.
 
 Note that as play advances cards of any suit may be placed in a given suit tray, so the product between same-suit trays may be negative due to a red card in one tray and a black card in the other tray.
 
