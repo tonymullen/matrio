@@ -2,7 +2,8 @@
 
 MatriO is a game based on matrix multiplication to be played by 4 people using a standard deck of playing cards (mini sized is recommended) and a special board. 
 
-<img src="/images/photo-fixed.png" alt="board" width="550"/>
+<!-- <img src="./images/photo-fixed.png" alt="board" width="420"/> -->
+<img src="./images/photo-fixed.png" alt="board" width="550"/>
 
 ## The object of the game
 
@@ -12,7 +13,8 @@ Players take turns placing their cards on the board to determine the placement o
 
 The board is laid out as shown:
 
-<img src="/images/matrio_board.png" alt="board" width="450"/>
+<!-- <img src="./images/matrio_board.png" alt="board" width="400"/> -->
+<img src="./images/matrio_board.png" alt="board" width="450"/>
 
 A total of six trays for each suit are laid out in colums (lower left) and rows (upper right). A 3 by 3 grid (lower right) is where players' *dot markers* are placed to calculate scores. 
 
@@ -37,7 +39,7 @@ When a player places a card that completes a row-column combination, that player
 
 In the image below, the purple player places the ten of clubs in the clubs tray in the rightmost column, completing a row-column combination of the rightmost column and bottommost row. Having placed the last card in this combination, the purple player places their dot marker on the corresponding cell (lower right) and the dot score calculated on that marker becomes part of purple's total score.
 
-![Board](/images/dot_placement.png)
+![Board](./images/dot_placement.png)
 
 
 It is possible to complete multiple row-column combinations at once, with the placement of a single card. In this case, the player puts a dot marker on each of the cells that correspond to an intersection of a completed row-column combination (there may be up to 3 combinations completed at once in a single move). 
@@ -70,7 +72,8 @@ Black cards represent positive values. Red cards represent negative values. The 
 
 The calculation of a dot score given a row and column of cards is shown in the following illustration:
 
-<img src="/images/dot_score.png" alt="score" width="450"/>
+<!-- <img src="./images/dot_score.png" alt="score" width="340"/> -->
+<img src="/images/dot_score.png" alt="score" width="450"/> 
 
 In this example the queen of spades value (13) is multiplied by the 7 of spades value, yielding 91. The 4 of diamonds (-4) is multiplied by the King of diamonds (-10) yielding 40. The seven of clubs (7) multiplied by the 5 of clubs (5) is 35, and the 6 of hearts (-6) times the 7 of hearts (-7) is 42. 91+40+35+42=208, so the current dot score for the bottom center grid cell is 208.
 
@@ -84,7 +87,7 @@ Dot scores should be re-calculated and updated after each card placement that al
 
 The game shown below is completed, and yellow has won with 84 points. 
 
-![Board](/images/photo-fixed.png)
+![Board](./images/photo-fixed.png)
 
 ## What you need to play the game
 
@@ -99,4 +102,4 @@ Notepads, pencils, and pocket calculators are highly recommended.
 
 &copy; 2019 Tony Mullen
 
-<img src="/images/640px-Cc-by-nc_icon.svg.png" alt="cc" width="250"/>
+<img src="./images/640px-Cc-by-nc_icon.svg.png" alt="cc" width="250"/>
