@@ -40,7 +40,7 @@ In the image below, the purple player places the ten of clubs in the clubs tray 
 ![Board](/images/dot_placement.png)
 
 
-It is possible to complete more than one row-column combinations at once, with the placement of a single card. In this case, the player puts a dot marker on each of the cells that correspond to an intersection of a completed row-column combination (up to 3 in a single move). 
+It is possible to complete more than one row-column combinations at once, with the placement of a single card. In this case, the player puts a dot marker on each of the cells that correspond to an intersection of a completed row-column combination (there may be up to 3 combinations completed at once in a single move). 
 
 ### Calculating scores
 
