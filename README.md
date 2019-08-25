@@ -59,7 +59,7 @@ Black cards represent positive values. Red cards represent negative values. The 
 
 The calculation of a dot score given a row and column of cards is shown in the following illustration:
 
-<img src="/images/dot_score.jpg" alt="Board" width="350"/>
+<img src="/images/dot_score.png" alt="Board" width="350"/>
 
 Note that as play advances cards of any suit may be placed in a given suit tray, so the product between same-suit trays may be negative due to a red card in one tray and a black card in the other tray.
 
