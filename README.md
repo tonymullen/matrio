@@ -48,7 +48,14 @@ When all nine cells of the grid have been filled, any player who has no markers 
 
 Dot scores are calculated based on the values of the visible cards in the corresponding row and column. Each of the suits' tray values are multiplied between row and column, and the sum of the four suits' tray value products is the dot score. 
 
-That is, the card value in the row spades tray is multiplied by the card value in the column spades tray, the value in the row diamonds tray is multiplied by the value in the column diamonds tray, the value in the row clubs tray multiplied by the value in the column clubs tray, and the value in the row hearts tray is multiplied by the value in the column hearts tray. The four products are added together for the dot score.
+Specifically, the following 4 products are calculated:
+
+* The card value in the row spades tray is multiplied by the card value in the column spades tray.
+* The value in the row diamonds tray is multiplied by the value in the column diamonds tray.
+* The value in the row clubs tray multiplied by the value in the column clubs tray.
+* The value in the row hearts tray is multiplied by the value in the column hearts tray. 
+
+The four products are then added together for the dot score.
 
 Black cards represent positive values. Red cards represent negative values. The specific card values are as follows:
 
