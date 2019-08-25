@@ -1,8 +1,8 @@
 # MatriO
 
-<img src="/images/photo-fixed.png" alt="board" width="450"/>
+MatriO is a game based on matrix multiplication played to be played by 4 people using a standard deck of playing cards (mini sized is recommended) and a special board. 
 
-Matrio is a game based on matrix multiplication played to be played by 4 people using a standard deck of playing cards (mini sized is recommended) and a special board. 
+<img src="/images/photo-fixed.png" alt="board" width="450"/>
 
 ## The object of the game
 
@@ -14,7 +14,7 @@ The board is laid out as shown:
 
 <img src="/images/matrio_board.png" alt="board" width="450"/>
 
-A total of six trays for each suit are laid out in colums (lower left) and rows (upper right). A 3 by 3 grid (lower right) is where player's dot markers are placed to calculate scores. 
+A total of six trays for each suit are laid out in colums (lower left) and rows (upper right). A 3 by 3 grid (lower right) is where player's *dot markers* are placed to calculate scores. 
 
 ## Playing the game
 
@@ -86,23 +86,6 @@ In this case, it is recommended to use colored post-it notes or acrylic disks as
 The 17"x17" board dimensions assume that [mini (2.5" by 1.8") playing cards](https://bicyclecards.com/product/bicycle-mini-playing-cards/) are used. 
 
 
+&copy; 2019 Tony Mullen
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&copy; Tony Mullen, 2019
-
-![CC](/images/640px-Cc-by-nc_icon.svg.png)
+<img src="/images/640px-Cc-by-nc_icon.svg.png" alt="cc" width="250"/>
