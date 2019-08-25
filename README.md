@@ -50,7 +50,7 @@ That is, the card value in the row spades tray is multiplied by the card value i
 
 Black cards represent positive values. Red cards represent negative values. The specific card values are as follows:
 
-* The Queen of Spades is worth 13
+* The queen of spades is worth 13
 * All other black face cards are worth 10
 * All red face cards are worth -10
 * All black number cards are worth their numerical value
