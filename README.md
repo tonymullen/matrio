@@ -1,4 +1,4 @@
-# Matrio
+# MatriO
 
 Matrio is a game based on matrix multiplication played to be played by 4 people using a standard deck of playing cards (mini sized is recommended) and a special board. 
 
@@ -59,7 +59,7 @@ Black cards represent positive values. Red cards represent negative values. The 
 
 The calculation of a dot score given a row and column of cards is shown in the following illustration:
 
-![Board](/images/dot_score.png =450x)
+<img src="images/drawing.jpg" alt="Board" width="350"/>
 
 Note that as play advances cards of any suit may be placed in a given suit tray, so the product between same-suit trays may be negative due to a red card in one tray and a black card in the other tray.
 
