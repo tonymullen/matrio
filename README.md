@@ -14,7 +14,7 @@ The board is laid out as shown:
 
 <img src="/images/matrio_board.png" alt="board" width="450"/>
 
-A total of six trays for each suit are laid out in colums (lower left) and rows (upper right). A 3 by 3 grid (lower right) is where player's *dot markers* are placed to calculate scores. 
+A total of six trays for each suit are laid out in colums (lower left) and rows (upper right). A 3 by 3 grid (lower right) is where players' *dot markers* are placed to calculate scores. 
 
 ## Playing the game
 
