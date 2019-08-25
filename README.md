@@ -2,7 +2,7 @@
 
 MatriO is a game based on matrix multiplication played to be played by 4 people using a standard deck of playing cards (mini sized is recommended) and a special board. 
 
-<img src="/images/photo-fixed.png" alt="board" width="450"/>
+<img src="/images/photo-fixed.png" alt="board" width="550"/>
 
 ## The object of the game
 
