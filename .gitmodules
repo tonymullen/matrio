@@ -1,0 +1,3 @@
+[submodule "matrio-react"]
+	path = matrio-react
+	url = https://github.com/tonymullen/matrio-react.git
