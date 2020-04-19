@@ -5,10 +5,12 @@ For export to pdf, in settings.json:
 
 # MatriO
 
-MatriO is a game based on matrix multiplication to be played by 4 people using a standard deck of playing cards (mini sized is recommended) and a special board. 
+MatriO is a game based on matrix multiplication to be played by 4 people using a standard deck of playing cards (mini sized is recommended) and a special board.
 
 <!-- <img src="./images/photo-fixed.png" alt="board" width="420"/> -->
 <img src="./images/photo-fixed.png" alt="board" width="550"/>
+
+<a href="https://tonymullen.github.io/matrio-react/"><strong>Play online</strong></a>
 
 ## The object of the game
 
@@ -21,11 +23,11 @@ The board is laid out as shown:
 <!-- <img src="./images/matrio_board.png" alt="board" width="400"/> -->
 <img src="./images/matrio_board.png" alt="board" width="450"/>
 
-A total of six trays for each suit are laid out in colums (lower left) and rows (upper right). A 3 by 3 grid (lower right) is where players' *dot markers* are placed to calculate scores. 
+A total of six trays for each suit are laid out in colums (lower left) and rows (upper right). A 3 by 3 grid (lower right) is where players' *dot markers* are placed to calculate scores.
 
 ## Playing the game
 
-Discard the 4 of clubs and the 10 of diamonds. Keep both jokers. Shuffle the cards and deal 13 cards to each player. 
+Discard the 4 of clubs and the 10 of diamonds. Keep both jokers. Shuffle the cards and deal 13 cards to each player.
 
 The player with the 2 of clubs plays first. Players then take turns in clockwise order.
 
@@ -33,34 +35,34 @@ The player with the 2 of clubs plays first. Players then take turns in clockwise
 
 Players play by placing a card in one of the trays according to the following rules:
 
-* If one or more trays of a particular suit are empty, cards of that suit may only be played in an empty tray of the corresponding suit. 
-* Only a card of a corresponding suit may be played in an empty tray. 
+* If one or more trays of a particular suit are empty, cards of that suit may only be played in an empty tray of the corresponding suit.
+* Only a card of a corresponding suit may be played in an empty tray.
 * Once all trays of a given suit have at least one card in them, cards of that suit may be played in any non-empty tray on the board.
 * Jokers may be played in any tray (including empty trays) at any time.
 
 ### Dot marker placement
 
-When a player places a card that completes a row-column combination, that player places a dot marker on the cell in the 3 by 3 grid that corresponds to the intersection of the row-column combination that they just completed. 
+When a player places a card that completes a row-column combination, that player places a dot marker on the cell in the 3 by 3 grid that corresponds to the intersection of the row-column combination that they just completed.
 
 In the image below, the purple player places the ten of clubs in the clubs tray in the rightmost column, completing a row-column combination of the rightmost column and bottommost row. Having placed the last card in this combination, the purple player places their dot marker on the corresponding cell (lower right) and the dot score calculated on that marker becomes part of purple's total score.
 
 ![Board](./images/dot_placement.png)
 
 
-It is possible to complete multiple row-column combinations at once, with the placement of a single card. In this case, the player puts a dot marker on each of the cells that correspond to an intersection of a completed row-column combination (there may be up to 3 combinations completed at once in a single move). 
+It is possible to complete multiple row-column combinations at once, with the placement of a single card. In this case, the player puts a dot marker on each of the cells that correspond to an intersection of a completed row-column combination (there may be up to 3 combinations completed at once in a single move).
 
-When all nine cells of the grid have been filled, any player who has no markers on the board withdraws from the game. 
+When all nine cells of the grid have been filled, any player who has no markers on the board withdraws from the game.
 
 ### Calculating scores
 
-Dot scores are calculated based on the values of the visible cards in the corresponding row and column. Each of the suits' tray values are multiplied between row and column, and the sum of the four suits' tray value products is the dot score. 
+Dot scores are calculated based on the values of the visible cards in the corresponding row and column. Each of the suits' tray values are multiplied between row and column, and the sum of the four suits' tray value products is the dot score.
 
 Specifically, the following 4 products are calculated:
 
 * The card value in the row spades tray is multiplied by the card value in the column spades tray.
 * The value in the row diamonds tray is multiplied by the value in the column diamonds tray.
 * The value in the row clubs tray multiplied by the value in the column clubs tray.
-* The value in the row hearts tray is multiplied by the value in the column hearts tray. 
+* The value in the row hearts tray is multiplied by the value in the column hearts tray.
 
 The four products are then added together for the dot score.
 
@@ -78,7 +80,7 @@ Black cards represent positive values. Red cards represent negative values. The 
 The calculation of a dot score given a row and column of cards is shown in the following illustration:
 
 <!-- <img src="./images/dot_score.png" alt="score" width="340"/> -->
-<img src="/images/dot_score.png" alt="score" width="450"/> 
+<img src="/images/dot_score.png" alt="score" width="450"/>
 
 In this example the queen of spades value (13) is multiplied by the 7 of spades value, yielding 91. The 4 of diamonds (-4) is multiplied by the King of diamonds (-10) yielding 40. The seven of clubs (7) multiplied by the 5 of clubs (5) is 35, and the 6 of hearts (-6) times the 7 of hearts (-7) is 42. 91+40+35+42=208, so the current dot score for the bottom center grid cell is 208.
 
@@ -90,7 +92,7 @@ Dot scores should be re-calculated and updated after each card placement that al
 
 ### Example of a finished game
 
-The game shown below is completed, and yellow has won with 84 points. 
+The game shown below is completed, and yellow has won with 84 points.
 
 ![Board](./images/photo-fixed.png)
 
@@ -100,9 +102,9 @@ The necessary aspects of the board (suited card trays in rows and columns and th
 
 3D printable models can be found in the `stl` directory in the `resources` directory if you want to print fancier board components. The names of the `.stl` files tell you how many times each file needs to be printed and in what color. You will need to glue the trays onto a 17"x17" surface. Dot markers should be assembled with 2" diameter white acrylic disks (these can be obtained, for example, [here](http://www.delviesplastics.com/p/Colored_Acrylic_Discs.html)) and dry erase markers should be used to record dot scores.
 
-The 17"x17" board dimensions assume that [mini (2.5" by 1.8") playing cards](https://bicyclecards.com/product/bicycle-mini-playing-cards/) are used. 
+The 17"x17" board dimensions assume that [mini (2.5" by 1.8") playing cards](https://bicyclecards.com/product/bicycle-mini-playing-cards/) are used.
 
-Notepads, pencils, and pocket calculators are highly recommended. 
+Notepads, pencils, and pocket calculators are highly recommended.
 
 
 &copy; 2019 Tony Mullen https://github.com/tonymullen/matrio
