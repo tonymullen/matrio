@@ -10,7 +10,7 @@ MatriO is a game based on matrix multiplication to be played by 4 people using a
 <!-- <img src="./images/photo-fixed.png" alt="board" width="420"/> -->
 <img src="./images/photo-fixed.png" alt="board" width="550"/>
 
-<a href="https://tonymullen.github.io/matrio-react/"><strong>Play online</strong></a>
+<a href="https://tonymullen.github.io/matrio-react/"><strong>PLAY ONLINE</strong></a>
 
 ## The object of the game
 
@@ -98,7 +98,10 @@ The game shown below is completed, and yellow has won with 84 points.
 
 ## What you need to play the game
 
-The necessary aspects of the board (suited card trays in rows and columns and the 3x3 grid) can be easily drawn on any large piece of paper, or the .svg file in the `resources` directory can be printed in dimensions of 17"x17". In this case, it is recommended to use colored post-it notes or acrylic disks as dot markers and dry erase pens to keep track of dot scores.
+You can play online here at https://tonymullen.github.io/matrio-react/.
+
+
+For physical play, the necessary aspects of the board (suited card trays in rows and columns and the 3x3 grid) can be easily drawn on any large piece of paper, or the .svg file in the `resources` directory can be printed in dimensions of 17"x17". In this case, it is recommended to use colored post-it notes or acrylic disks as dot markers and dry erase pens to keep track of dot scores.
 
 3D printable models can be found in the `stl` directory in the `resources` directory if you want to print fancier board components. The names of the `.stl` files tell you how many times each file needs to be printed and in what color. You will need to glue the trays onto a 17"x17" surface. Dot markers should be assembled with 2" diameter white acrylic disks (these can be obtained, for example, [here](http://www.delviesplastics.com/p/Colored_Acrylic_Discs.html)) and dry erase markers should be used to record dot scores.
 
