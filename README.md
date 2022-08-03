@@ -12,6 +12,8 @@ MatriO is a game based on matrix multiplication to be played by 4 people using a
 
 <a href="https://tonymullen.github.io/matrio-react/"><strong>PLAY ONLINE</strong></a>
 
+To play the online version of the game, click or touch the card you want to play to select it, then click or touch the place on the board where you want to place the card (see below for detailed rules). 
+
 ## The object of the game
 
 Players take turns placing their cards on the board to determine the placement of their dot markers and their scores. The player with the highest total score when all cards have been played is the winner.
