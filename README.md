@@ -100,8 +100,7 @@ The game shown below is completed, and yellow has won with 84 points.
 
 ## What you need to play the game
 
-You can play online here at https://tonymullen.github.io/matrio-react/.
-
+You can play online here at https://tonymullen.github.io/matrio-react/. To play the online version of the game, click or touch the card you want to play to select it, then click or touch the place on the board where you want to place the card.
 
 For physical play, the necessary aspects of the board (suited card trays in rows and columns and the 3x3 grid) can be easily drawn on any large piece of paper, or the .svg file in the `resources` directory can be printed in dimensions of 17"x17". In this case, it is recommended to use colored post-it notes or acrylic disks as dot markers and dry erase pens to keep track of dot scores.
 
