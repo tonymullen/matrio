@@ -111,6 +111,6 @@ The 17"x17" board dimensions assume that [mini (2.5" by 1.8") playing cards](htt
 Notepads, pencils, and pocket calculators are highly recommended.
 
 
-&copy; 2023 Tony Mullen https://github.com/tonymullen/matrio
+&copy; 2025 Tony Mullen https://github.com/tonymullen/matrio
 
 <img src="./images/640px-Cc-by-nc_icon.svg.png" alt="cc" width="250"/>
